@@ -1,0 +1,190 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: transparent;
+}
+
+.container_form{
+    margin: 10% auto;
+    width: 100%;
+    display: block;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    float: right;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    
+}
+
+.container_form h1{
+    padding: 20px;
+}
+
+.form-row{
+    display: inline-block;
+}
+
+.form-flex{
+    display: flex;
+    margin: 10px 40px;
+    float: right;
+}
+
+.form-group{
+    margin: auto 20px;
+    width: 100%;
+}
+
+.form-group input{
+    padding: 10px 10px;
+    width: 350px;
+    border: 1px solid gainsboro;
+}
+
+fieldset .form-flex{
+    margin: 10px;
+    float: inherit;
+}
+
+.form-row h3{
+    display: flex;
+    font-size: 2.5rem;
+}
+
+.form-intro{
+    display: flex;
+    margin: 5% 17%;
+}
+
+.form-intro .form-flex{
+    display: flex;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form-intro .form-group{
+    margin: 0;
+}
+
+.form-intro textarea{
+    height: 149px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gainsboro;
+}
+
+.form-1 button{
+    float: right;
+    margin: 20px;
+    padding: 10px 30px;
+}
+
+/*
+Make bootstrap-select work with bootstrap 4 see:
+https://github.com/silviomoreto/bootstrap-select/issues/1135
+*/
+
+.dropdown-toggle.btn-default {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100% !important;
+  }
+  .bootstrap-select.show > .dropdown-menu > .dropdown-menu {
+    display: block;
+  }
+  .bootstrap-select > .dropdown-menu > .dropdown-menu li.hidden {
+    display: none;
+  }
+  .dropdown-menu .open .show{
+      max-height: 300px;
+    overflow: hidden;
+    min-height: 200px;
+    position: absolute;
+    /* will-change: transform;*/
+    top: 0px;
+    left: 0px;
+    /* transform: translate3d(0px, -216px, 0px);*/
+  }
+  .bootstrap-select > .dropdown-menu > .dropdown-menu li a {
+    display: block;
+    width: 100%;
+    padding: 3px 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #292b2c;
+    text-align: inherit;
+    white-space: nowrap;
+    background: 0 0;
+    border: 0;
+    text-decoration: none;
+  }
+  .bootstrap-select > .dropdown-menu > .dropdown-menu li a:hover {
+    background-color: #f4f4f4;
+  }
+  .bootstrap-select > .dropdown-toggle {
+    width: 100%;
+  }
+  .dropdown-menu > li.active > a {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+  }
+  .bootstrap-select .check-mark {
+    line-height: 14px;
+  }
+  .bootstrap-select .check-mark::after {
+    font-family: "FontAwesome";
+    content: "\f00c";
+  }
+  .bootstrap-select button {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  /* Make filled out selects be the same size as empty selects */
+  .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline !important;
+  }
+
+  #form2 .form-row{
+    display: flex;
+    margin: 20px 105px;
+  }
+
+  #form2 .form-group input {
+    margin: 0 20px;
+    padding: 10px 10px;
+    width: 560px;
+    border: 1px solid black;
+  }
+
+  #form2 .form-group {
+    margin-bottom: 0;
+    margin: 0;
+}
+
+#form2 .form-flex{
+  margin: 0;
+}
+
+  #form2 select{
+    width: 60rem;
+    padding: 9px;
+    border: 1px solid black;
+  }
+
+  #previous{
+    float: left;
+    margin: 20px 109px;
+  }
+
+  #finish{
+    float: right;
+    margin: 20px 166px;
+  }
